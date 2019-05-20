@@ -1,0 +1,538 @@
+
+.qv-object-Asm_tooltip .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+.qv-object-Asm_tooltip .btn.active.focus,
+.qv-object-Asm_tooltip .btn.active:focus,
+.qv-object-Asm_tooltip .btn.focus,
+.qv-object-Asm_tooltip .btn:active.focus,
+.qv-object-Asm_tooltip .btn:active:focus,
+.qv-object-Asm_tooltip .btn:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.qv-object-Asm_tooltip .btn.focus,
+.qv-object-Asm_tooltip .btn:focus,
+.qv-object-Asm_tooltip .btn:hover {
+    color: #333;
+    text-decoration: none
+}
+
+.qv-object-Asm_tooltip .btn.active,
+.qv-object-Asm_tooltip .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
+}
+
+
+
+
+
+.qv-object-Asm_tooltip .btn-primary.active,
+.qv-object-Asm_tooltip .btn-primary:active,
+.qv-object-Asm_tooltip .open>.dropdown-toggle.btn-primary {
+    background-image: none
+}
+
+
+.qv-object-Asm_tooltip .btn-primary .badge {
+    color: #428bca;
+    background-color: #fff
+}
+
+.qv-object-Asm_tooltip .btn-success {
+    color: #fff;
+    background-color: #a62b4d;
+    border-color: #a62b4d;
+}
+
+.qv-object-Asm_tooltip .btn-success.active,
+.qv-object-Asm_tooltip .btn-success.focus,
+.qv-object-Asm_tooltip .btn-success:active,
+.qv-object-Asm_tooltip .btn-success:focus,
+.qv-object-Asm_tooltip .btn-success:hover,
+.qv-object-Asm_tooltip .open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #a62b4d;
+    border-color: #a62b4d;
+}
+
+.qv-object-Asm_tooltip .btn-success.active,
+.qv-object-Asm_tooltip .btn-success:active,
+.qv-object-Asm_tooltip .open>.dropdown-toggle.btn-success {
+    background-image: none
+}
+
+
+.qv-object-Asm_tooltip .btn-success .badge {
+    color: #5cb85c;
+    background-color: #fff
+}
+
+.qv-object-Asm_tooltip .btn-info {
+    color: #fff;
+    background-color:#a62b4d;
+    border-color: #a62b4d;
+}
+
+.qv-object-Asm_tooltip .btn-info.active,
+.qv-object-Asm_tooltip .btn-info.focus,
+.qv-object-Asm_tooltip .btn-info:active,
+.qv-object-Asm_tooltip .btn-info:focus,
+.qv-object-Asm_tooltip .btn-info:hover,
+.qv-object-Asm_tooltip .open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color:#a62b4d;
+    border-color: #a62b4d;
+}
+
+.qv-object-Asm_tooltip .btn-info.active,
+.qv-object-Asm_tooltip .btn-info:active,
+.qv-object-Asm_tooltip .open>.dropdown-toggle.btn-info {
+    background-image: none
+}
+
+.qv-object-Asm_tooltip .btn-info.disabled,
+.qv-object-Asm_tooltip .btn-info.disabled.active,
+.qv-object-Asm_tooltip .btn-info.disabled.focus,
+.qv-object-Asm_tooltip .btn-info.disabled:active,
+.qv-object-Asm_tooltip .btn-info.disabled:focus,
+.qv-object-Asm_tooltip .btn-info.disabled:hover,
+.qv-object-Asm_tooltip .btn-info[disabled],
+.qv-object-Asm_tooltip .btn-info[disabled].active,
+.qv-object-Asm_tooltip .btn-info[disabled].focus,
+.qv-object-Asm_tooltip .btn-info[disabled]:active,
+.qv-object-Asm_tooltip .btn-info[disabled]:focus,
+.qv-object-Asm_tooltip .btn-info[disabled]:hover,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-info,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-info.active,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-info.focus,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-info:active,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-info:focus,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-info:hover {
+    background-color: #a62b4d;
+    border-color: #a62b4d;
+}
+
+.qv-object-Asm_tooltip .btn-info .badge {
+    color: #5bc0de;
+    background-color: #fff
+}
+
+
+
+.qv-object-Asm_tooltip .btn-warning .badge {
+    color: #f0ad4e;
+    background-color: #fff
+}
+
+
+.qv-object-Asm_tooltip .btn-danger.active,
+.qv-object-Asm_tooltip .btn-danger:active,
+.qv-object-Asm_tooltip .open>.dropdown-toggle.btn-danger {
+    background-image: none
+}
+
+.qv-object-Asm_tooltip .btn-danger.disabled,
+.qv-object-Asm_tooltip .btn-danger.disabled.active,
+.qv-object-Asm_tooltip .btn-danger.disabled.focus,
+.qv-object-Asm_tooltip .btn-danger.disabled:active,
+.qv-object-Asm_tooltip .btn-danger.disabled:focus,
+.qv-object-Asm_tooltip .btn-danger.disabled:hover,
+.qv-object-Asm_tooltip .btn-danger[disabled],
+.qv-object-Asm_tooltip .btn-danger[disabled].active,
+.qv-object-Asm_tooltip .btn-danger[disabled].focus,
+.qv-object-Asm_tooltip .btn-danger[disabled]:active,
+.qv-object-Asm_tooltip .btn-danger[disabled]:focus,
+.qv-object-Asm_tooltip .btn-danger[disabled]:hover,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-danger,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-danger.active,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-danger.focus,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-danger:active,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-danger:focus,
+.qv-object-Asm_tooltip fieldset[disabled] .btn-danger:hover {
+    background-color: #d9534f;
+    border-color: #d43f3a
+}
+
+.qv-object-Asm_tooltip .btn-danger .badge {
+    color: #d9534f;
+    background-color: #fff
+}
+
+.qv-object-Asm_tooltip .btn-link {
+    font-weight: 400;
+    color: #428bca;
+    border-radius: 0
+}
+
+.qv-object-Asm_tooltip .btn-link,
+.qv-object-Asm_tooltip .btn-link.active,
+.qv-object-Asm_tooltip .btn-link:active,
+.qv-object-Asm_tooltip .btn-link[disabled],
+.qv-object-Asm_tooltip fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+
+
+
+
+.qv-object-Asm_tooltip .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+
+ .qv-object-Asm_tooltip  .modal-content{
+ position:relative;
+ background-color:#fff;
+ border:1px solid #999;
+ border:1px solid rgba(0,0,0,0.2);
+ border-radius:6px;
+ -webkit-box-shadow:0 3px 9px rgba(0,0,0,0.5);
+ box-shadow:0 3px 9px rgba(0,0,0,0.5);
+ -webkit-background-clip:padding-box;
+ background-clip:padding-box;
+ outline:0
+ }
+
+  .qv-object-Asm_tooltip  .modal-content{
+ -webkit-box-shadow:0 5px 15px rgba(0,0,0,0.5);
+ box-shadow:0 5px 15px rgba(0,0,0,0.5)
+ }
+
+.qv-object-Asm_tooltip .modal-body{
+ position:relative;
+ padding:15px
+ }
+
+.qv-object-Asm_tooltip .close {
+  color: black;
+  float: right;
+  width: 23px;
+	height: 23px;
+  border: 2px solid #eef5df;
+	background-color: #a62b4d;
+	border-radius: 50%;
+  
+}
+
+.qv-object-Asm_tooltip .close:hover,
+.qv-object-Asm_tooltip .close:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+   transform: rotate(180deg);
+}
+
+
+.qv-object-Asm_tooltip   .col-xs-1,.qv-object-Astellas_tooltip   .col-sm-1,.qv-object-Astellas_tooltip   .col-md-1,.qv-object-Astellas_tooltip   .col-lg-1,.qv-object-Astellas_tooltip   .col-xs-2,.qv-object-Astellas_tooltip   .col-sm-2,.qv-object-Astellas_tooltip   .col-md-2,.qv-object-Astellas_tooltip   .col-lg-2,.qv-object-Astellas_tooltip   .col-xs-3,.qv-object-Astellas_tooltip   .col-sm-3,.qv-object-Astellas_tooltip   .col-md-3,.qv-object-Astellas_tooltip   .col-lg-3,.qv-object-Astellas_tooltip   .col-xs-4,.qv-object-Astellas_tooltip   .col-sm-4,.qv-object-Astellas_tooltip   .col-md-4,.qv-object-Astellas_tooltip   .col-lg-4,.qv-object-Astellas_tooltip   .col-xs-5,.qv-object-Astellas_tooltip   .col-sm-5,.qv-object-Astellas_tooltip   .col-md-5,.qv-object-Astellas_tooltip   .col-lg-5,.qv-object-Astellas_tooltip   .col-xs-6,.qv-object-Astellas_tooltip   .col-sm-6,.qv-object-Astellas_tooltip   .col-md-6,.qv-object-Astellas_tooltip   .col-lg-6,.qv-object-Astellas_tooltip   .col-xs-7,.qv-object-Astellas_tooltip   .col-sm-7,.qv-object-Astellas_tooltip   .col-md-7,.qv-object-Astellas_tooltip   .col-lg-7,.qv-object-Astellas_tooltip   .col-xs-8,.qv-object-Astellas_tooltip   .col-sm-8,.qv-object-Astellas_tooltip   .col-md-8,.qv-object-Astellas_tooltip   .col-lg-8,.qv-object-Astellas_tooltip   .col-xs-9,.qv-object-Astellas_tooltip   .col-sm-9,.qv-object-Astellas_tooltip   .col-md-9,.qv-object-Astellas_tooltip   .col-lg-9,.qv-object-Astellas_tooltip   .col-xs-10,.qv-object-Astellas_tooltip   .col-sm-10,.qv-object-Astellas_tooltip   .col-md-10,.qv-object-Astellas_tooltip   .col-lg-10,.qv-object-Astellas_tooltip   .col-xs-11,.qv-object-Astellas_tooltip   .col-sm-11,.qv-object-Astellas_tooltip   .col-md-11,.qv-object-Astellas_tooltip   .col-lg-11,.qv-object-Astellas_tooltip   .col-xs-12,.qv-object-Astellas_tooltip   .col-sm-12,.qv-object-Astellas_tooltip   .col-md-12,.qv-object-Astellas_tooltip   .col-lg-12{
+ position:relative;
+ min-height:1px;
+ padding-left:15px;
+ padding-right:15px
+ }
+ .qv-object-Asm_tooltip   .col-xs-1,.qv-object-Astellas_tooltip   .col-xs-2,.qv-object-Astellas_tooltip   .col-xs-3,.qv-object-Astellas_tooltip   .col-xs-4,.qv-object-Astellas_tooltip   .col-xs-5,.qv-object-Astellas_tooltip   .col-xs-6,.qv-object-Astellas_tooltip   .col-xs-7,.qv-object-Astellas_tooltip   .col-xs-8,.qv-object-Astellas_tooltip   .col-xs-9,.qv-object-Astellas_tooltip   .col-xs-10,.qv-object-Astellas_tooltip   .col-xs-11,.qv-object-Astellas_tooltip   .col-xs-12{
+ float:left
+ }
+ .qv-object-Asm_tooltip   .col-xs-12{
+ width:100%
+ }
+ .qv-object-Asm_tooltip   .col-xs-11{
+ width:91.66666667%
+ }
+ .qv-object-Asm_tooltip   .col-xs-10{
+ width:83.33333333%
+ }
+
+ @media (min-width:768px){
+ .qv-object-Asm_tooltip   .col-sm-1,.qv-object-Astellas_tooltip   .col-sm-2,.qv-object-Astellas_tooltip   .col-sm-3,.qv-object-Astellas_tooltip   .col-sm-4,.qv-object-Astellas_tooltip   .col-sm-5,.qv-object-Astellas_tooltip   .col-sm-6,.qv-object-Astellas_tooltip   .col-sm-7,.qv-object-Astellas_tooltip   .col-sm-8,.qv-object-Astellas_tooltip   .col-sm-9,.qv-object-Astellas_tooltip   .col-sm-10,.qv-object-Astellas_tooltip   .col-sm-11,.qv-object-Astellas_tooltip   .col-sm-12{
+ float:left
+ }
+
+.qv-object-Asm_tooltip   .col-sm-offset-0{
+ margin-left:0
+ }
+ }
+ @media (min-width:992px){
+ .qv-object-Asm_tooltip   .col-md-1,.qv-object-Astellas_tooltip   .col-md-2,.qv-object-Astellas_tooltip   .col-md-3,.qv-object-Astellas_tooltip   .col-md-4,.qv-object-Astellas_tooltip   .col-md-5,.qv-object-Astellas_tooltip   .col-md-6,.qv-object-Astellas_tooltip   .col-md-7,.qv-object-Astellas_tooltip   .col-md-8,.qv-object-Astellas_tooltip   .col-md-9,.qv-object-Astellas_tooltip   .col-md-10,.qv-object-Astellas_tooltip   .col-md-11,.qv-object-Astellas_tooltip   .col-md-12{
+ float:left
+ }
+ .qv-object-Asm_tooltip   .col-md-12{
+ width:100%
+ }
+
+ .qv-object-Asm_tooltip   .col-md-4{
+ width:33.33333333%
+ }
+ .qv-object-Asm_tooltip   .col-md-3{
+ width:25%
+ }
+ .qv-object-Asm_tooltip   .col-md-2{
+ width:16.66666667%
+ }
+ .qv-object-Asm_tooltip   .col-md-1{
+ width:8.33333333%
+ }
+ .qv-object-Asm_tooltip   .col-md-offset-0{
+ margin-left:0
+ }
+ }
+ @media (min-width:1200px){
+ .qv-object-Asm_tooltip   .col-lg-1,.qv-object-Astellas_tooltip   .col-lg-2,.qv-object-Astellas_tooltip   .col-lg-3,.qv-object-Astellas_tooltip   .col-lg-4,.qv-object-Astellas_tooltip   .col-lg-5,.qv-object-Astellas_tooltip   .col-lg-6,.qv-object-Astellas_tooltip   .col-lg-7,.qv-object-Astellas_tooltip   .col-lg-8,.qv-object-Astellas_tooltip   .col-lg-9,.qv-object-Astellas_tooltip   .col-lg-10,.qv-object-Astellas_tooltip   .col-lg-11,.qv-object-Astellas_tooltip   .col-lg-12{
+ float:left
+ }
+.qv-object-Asm_tooltip   .col-lg-offset-0{
+ margin-left:0
+ }
+ }
+ 
+   .qv-object-Asm_tooltip  .modal-header{
+ padding:15px;
+ border-bottom:1px solid #e5e5e5;
+ min-height:16.42857143px
+ }
+  .qv-object-Asm_tooltip  .modal-header .close{
+ margin-top:-2px
+ }
+ 
+ 
+ .qv-object-Asm_tooltip   .modal-footer{
+ padding:15px;
+ text-align:right;
+ border-top:1px solid #e5e5e5
+ }
+ .qv-object-Asm_tooltip   .modal-footer .btn+.btn{
+ margin-left:5px;
+ margin-bottom:0
+ }
+ .qv-object-Asm_tooltip   .modal-footer .btn-group .btn+.btn{
+ margin-left:-1px
+ }
+ .qv-object-Asm_tooltip   .modal-footer .btn-block+.btn-block{
+ margin-left:0
+ }
+ .qv-object-Asm_tooltip   .modal-scrollbar-measure{
+ position:absolute;
+ top:-9999px;
+ width:50px;
+ height:50px;
+ overflow:scroll
+ }
+ @media (min-width:768px){
+ .qv-object-Asm_tooltip   .modal-dialog{
+ width:600px;
+ margin:30px auto
+ }
+ .qv-object-Asm_tooltip   .modal-content{
+ -webkit-box-shadow:0 5px 15px rgba(0,0,0,0.5);
+ box-shadow:0 5px 15px rgba(0,0,0,0.5)
+ }
+ 
+ .qv-object-Asm_tooltip  .myP{
+ font-family:sans-serif !important;
+ text-align:justify !important;
+ }
+
+.qv-object-Asm_tooltip  .myH5{
+ font-family:sans-serif !important;
+ text-align:center !important;
+ font-style:bold ! important;
+ }
+
+.qv-object-Asm_tooltip  .myButton{
+ font-style:bold ! important;
+ max-width :100px !important;
+ display:block !important;
+ width:60% !important;
+ margin: auto !important;
+  min-width:15px !important;
+ }
+
+.qv-object-Asm_tooltip  .myBorder{
+ border-color:dimgray;
+ }
+ 
+ 
+ .container .qv-object-Asm_tooltip {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) .qv-object-Asm_tooltip {
+    .container .qv-object-Asm_tooltip {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) .qv-object-Asm_tooltip {
+    .container .qv-object-Asm_tooltip {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) .qv-object-Asm_tooltip {
+    .container .qv-object-Asm_tooltip {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) .qv-object-Asm_tooltip {
+    .container .qv-object-Asm_tooltip {
+        max-width: 1140px
+    }
+}
+
+.container-fluid .qv-object-Asm_tooltip {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) .qv-object-Asm_tooltip {
+    .container .qv-object-Asm_tooltip {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) .qv-object-Asm_tooltip {
+    .container .qv-object-Asm_tooltip {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) .qv-object-Asm_tooltip {
+    .container .qv-object-Asm_tooltip {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) .qv-object-Asm_tooltip {
+    .container .qv-object-Asm_tooltip {
+        max-width: 1140px
+    }
+}
+
+
+
+ .container .qv-object-Asm_tooltip {
+        min-width: 992px!important
+    }
+	
+
+.qv-object-Asm_tooltip .tabbed > input{
+  display : none;
+}
+
+.qv-object-Asm_tooltip .tabbed > input:not(:checked) + section > div{
+  display : none;
+}
+
+
+.qv-object-Asm_tooltip .tabbed > section > h1{
+  float : left;
+  color :#fff;
+}
+
+.qv-object-Asm_tooltip .tabbed > section > div{
+  float  : right;
+  width  : 100%;
+  margin : 2.5em 0 0 -100%;
+}
+
+.qv-object-Asm_tooltip .tabbed{
+  float : left;
+  width : 100%;
+}
+
+
+.qv-object-Asm_tooltip .tabbed > section > h1 > label{
+  cursor              : pointer;
+     -moz-user-select : none;
+      -ms-user-select : none;
+  -webkit-user-select : none;
+}
+
+
+.qv-object-Asm_tooltip .tabbed > section > div{
+  box-sizing    : border-box;
+  padding       : 0.5em 0.75em;
+  border        : 1px solid #ddd;
+  border-radius : 4px;
+  box-shadow    : 0 0 0.5em rgba(0,0,0,0.0625);
+  background    : #fff;
+}
+
+.qv-object-Asm_tooltip .tabbed > section > h1{
+  box-sizing  : border-box;
+  margin      : 0;
+  padding     : 0.5em 0.5em 0;
+  overflow    : hidden;
+  font-size   : 1em;
+  font-weight : normal;
+  color:#000000;
+}
+
+.qv-object-Asm_tooltip .tabbed > section > h1 > label{
+  display                 : block;
+  padding                 : 0.25em 0.75em;
+  border-bottom           : none;
+  border-top-left-radius  : 4px;
+  border-top-right-radius : 4px;
+  box-shadow              : 0 0 0.5em rgba(0,0,0,0.0625);
+  transition: background-color .3s;
+}
+
+.qv-object-Asm_tooltip .tabbed > section > div{
+  position : relative;
+  z-index  : 1;
+}
+
+.qv-object-Asm_tooltip .tabbed > input:checked + section > h1{
+  border : 1px solid #ddd;
+  z-index  : 2;
+  background  : #a62b4d;
+  color:#fff;
+}
+
