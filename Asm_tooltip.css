@@ -217,7 +217,10 @@
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-
+.qv-object-Asm_tooltip{
+	
+	z-index: 999 !important;
+}
 
  .qv-object-Asm_tooltip  .modal-content{
  position:relative;
